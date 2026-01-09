@@ -11,6 +11,14 @@
   <meta property="og:url" content="https://example.com">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
+    <!-- Preload critical resources -->
+  <link rel="preload" href="styles.css" as="style">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Module scripts with defer -->
+  <script type="module" src="script.js" defer></script>
   <link rel="canonical" href="https://example.com">
 </head>
 <body>
